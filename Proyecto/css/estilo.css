@@ -1,0 +1,662 @@
+*	{
+	margin:0;
+	padding:0;
+	}
+
+body	{
+		background:url(../imagenes/carbono.jpg);
+		}
+	
+p	{
+	font-size:15px;
+	font-weight:bold;	
+	}
+	
+#divErrores	{
+			width:200px;
+			height: 90px;
+			margin-right: 20px;
+			background:#CCC;
+			border-top: 2px solid grey;
+			border-left: 2px solid grey;
+			border-right: 5px solid grey;
+			border-bottom: 5px solid grey;
+			border-radius: 5%;
+			float:right;
+			}
+			
+#errores
+{
+	color: red;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+
+/***ERRORES NUEVO ARTÍCULO***/
+
+#divErroresArticulos
+{
+	width:250px;
+	height: 100px;
+	margin-right: 50px;
+	margin-left: 450px;
+	background:#CCC;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 5px solid black;
+	border-bottom: 5px solid black;
+	border-radius: 5%;
+}
+			
+#erroresArticulos
+{
+	color: red;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+
+/***CONTENEDORES***/
+#contenedor	{
+			width:770px;
+			margin:0 auto;
+			}
+			
+#contenedorPrincipal
+{
+	width:770px;
+	margin:0 auto;
+	background: #DCDCDC;
+}
+			
+#contenidoFormulario	{
+						padding-top:20px;
+						padding-left:20px;
+						}
+		
+#formulario	{
+			height:220px;
+			width:580px;
+			margin:0 auto;
+			font-family:verdana;
+			background:lightgrey;
+			border:1px solid grey;
+			border-radius:5%;
+			border-bottom: 5px solid grey;
+			border-right: 5px solid grey;
+			border-top: 2px solid grey;
+			border-left: 2px solid grey;
+			}
+		
+#formulario #contenidoFormulario form
+{
+	width: 530px; 
+	height:100px;
+}
+
+#formulario #contenidoFormulario form label
+{
+	display: inline-block; 
+	width: 520px;
+}		
+
+#texto	{
+		font-family:arial;
+		font-size:16px;
+		font-weight:bold;
+		padding:20px;
+		}
+		
+		
+label	{
+		font-weight:bold;
+		font-size:14px;
+		}
+	
+.letra	{
+		display:block;
+		font-size:9px;	
+		color:#666666;
+		}
+		
+.letraErrores	
+{
+	display:block;
+	font-size:12px;	
+	color:red;
+	float: right; 
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 2px;
+}
+
+#erroresUsuario:hover
+{
+	font-size: 15px;
+}
+	
+.medidaInput
+{
+	width:140px;
+}
+
+input	{
+		border:1px solid grey;
+		margin-left:15px;
+		}
+
+	
+#enviar	{
+		background:#666666;
+		color:white;
+		width:75px;
+		margin-top:10px;
+		margin-left:125px;
+			
+		}
+	
+h2	{
+	margin-left:10px;
+	font-size:16px;
+	padding-top:10px;
+	}
+
+
+#introduce	{
+			padding-bottom:	10px;
+			border-bottom:2px solid grey;
+			margin-left:10px;
+			font-size:12px;
+			width:300px;
+			}
+			
+#entrar
+{
+	margin-right: 30px;
+	text-align: right;
+	width: 700px;
+	height: 40px;
+}
+
+#entrar a
+{
+	text-decoration: none;
+}
+
+#entrar p
+{
+	color: black;
+	font-family: Blackadder ITC;
+}
+
+#entrar a:hover
+{
+	text-decoration: underline;
+	color: black;
+}
+/***MENU***/
+
+#menu ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#menu a
+{
+	text-decoration: none;
+}
+
+ul
+{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: right;
+	margin-right: 30px;
+}
+
+li
+{
+	margin-left: 30px;	
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+	font-family: Blackadder ITC;
+}
+
+li:hover
+{
+	margin-left: 30px;	
+	font-size: 24px;
+	font-weight: bold;
+	font-family: Blackadder ITC;
+	text-decoration: underline;
+	color: black;
+}
+
+/***REGISTRARSE***/
+
+#registrarse
+{
+	font-size: 10px;
+	text-align: right;
+	margin-right: 50px;
+}
+
+#registrarse a
+{
+	text-decoration: none;
+	color: black;	
+}
+
+#registrarse a:hover
+{
+	text-decoration: underline;
+	color: black;	
+}
+
+#contenidoRegistro	
+{
+	padding-top:20px;
+	padding-left:20px;
+}
+		
+#registro
+{
+	height:290px;
+	width:600px;
+	margin:0 auto;
+	font-family:verdana;
+	background:lightgrey;
+	border-radius: 5%;
+	border-bottom: 5px solid grey;
+	border-right: 5px solid grey;
+	border-top: 2px solid grey;
+	border-left: 2px solid grey;
+}
+
+#registro #contenidoRegistro form
+{
+	width: 600px; 
+	height:250px;
+	margin-left: 20px;
+}
+
+#registro #contenidoRegistro form label input
+{
+		display: inline-block; 
+		width:140px;
+}
+
+#registro #contenidoRegistro form label
+{
+	display: inline-block; 
+	width: 292px;
+}
+/***TIENDA***/
+
+#tdTienda
+{
+	width: 330px; 
+	height: 210px; 
+	border: 2px solid grey;
+}
+
+#imagenesTienda
+{
+	width: 120px;
+	height: 120px;
+	padding-left: 20px;
+	padding-right: 60px;
+	float: left;
+}
+
+#letraTienda
+{
+	font-family: Blackadder ITC;
+	text-align: center;
+	/*padding-top: 10px;*/
+	padding-bottom: 10px;
+}
+	
+#pvp
+{
+	padding-top: 20px;
+	font-family: Blackadder ITC;
+	font-size: 10px;
+}	
+
+#precio
+{
+	font-family: Purisa;
+	color : red;
+	font-size: 32px;
+	padding-top: 10px;
+}
+
+#anyadir
+{	
+	text-decoration: none;
+	color: black;
+	font-family: Purisa;
+	font-size: 9px;
+}
+
+#divAnyadir
+{
+	text-align: center;
+	margin-left:240px;
+	background: grey; 
+	border: 2px solid grey;
+	border-radius: 5%;
+	width:50px;
+}
+
+#divAnyadir:hover
+{
+	text-align: center;
+	margin-left:240px;
+	background: Gainsboro; 
+	border: 2px solid grey;
+	border-radius: 5%;
+	width:50px;
+}
+
+/***TABLA ARTICULOS***/
+#ejecutar
+{
+	font-family: Purisa; 
+	padding: 3px;
+	font-weight: bold;
+}
+
+#ejecutar:hover
+{
+	font-family: Purisa; 
+	padding: 3px;
+	font-weight: bold;
+	color: white;
+	background: grey;
+}
+
+#tablaArticulos
+{
+	width: 700px;
+	margin: 0 auto;
+	border: 2px solid grey;
+}
+
+#cabeceraArticulos
+{
+	text-align: center;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+#tablaArticulos td
+{
+	text-align: center;
+	height: 70px;
+}
+
+#enlaces
+{
+	color: black;
+	padding-left: 50px;
+}
+
+#tablaArticulosPares
+{
+	background: SlateGray;
+}
+#tablaArticulosPares:hover
+{
+	background: IndianRed;
+}
+
+#tablaArticulosImpares
+{
+	background: lightgrey;
+}
+#tablaArticulosImpares:hover
+{
+	background: IndianRed;
+}
+
+#nuevoProducto
+{
+	width: 500px;
+	margin-left: 200px;
+	border: 2px solid grey;
+	margin-top: 20px;
+}
+
+#nuevoProducto:hover
+{
+	width: 500px;
+	margin-left: 200px;
+	border: 2px solid grey;
+	margin-top: 20px;
+	background: grey;
+}
+
+#nuevoProducto img
+{
+	width: 100px;
+	height: 70px;
+	margin-bottom: 10px;
+	margin-left: 30px;
+}
+
+#nuevoProducto p
+{
+	font-family: Purisa;
+	font-size: 13px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+#cabeceraAvisos
+{
+	text-align: center;
+	font-family: Purisa;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+/***FORMULARIO EDITAR***/
+
+#formularioEditar
+{
+	margin: 0 auto;
+	border-radius: 5%;
+	border-bottom: 6px solid grey;
+	border-right: 6px solid grey;
+	border-top: 2px solid grey;
+	border-left: 2px solid grey;
+	width: 580px;
+	height: 300px;
+}
+
+#formularioEditar p
+{
+	font-family: Purisa;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+
+#formularioEditar form
+{
+	width: 580px;
+	height: 180px;
+}
+
+#formularioEditar input
+{
+	 display: inline-block;
+}
+
+#formularioEditar label
+{
+	display: inline-block;
+	font-family: Purisa;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	width: 280px;
+}
+
+#editar
+{
+	margin-left: 300px;
+	width: 160px;
+	height: 30px;
+	margin-top: 20px;
+	background: grey;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+#editar:hover
+{
+	margin-left: 300px;
+	width: 160px;
+	height: 30px;
+	margin-top: 20px;
+	background: lightgrey;
+	font-family: Purisa;
+	font-weight: bold;
+}
+
+/***PIE***/
+
+#pie
+{
+	padding-top: 30px;
+	width: 600px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+#pie p
+{
+	font-family: Purisa;
+	font-size: 10px;
+	text-align: center;	
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#pieLog
+{
+	background: lightgrey;
+	width: 600px;
+	margin: 0 auto;
+}
+
+#pieLog p
+{
+	font-family: Purisa;
+	font-size: 10px;
+	text-align: center;	
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/***FACTURAS***/
+
+#tablaFacturas
+{
+	width: 350px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: Purisa;
+	border-collapse: collapse; 
+}
+
+#tablaFacturas tr
+{
+	border: 2px solid grey;
+	
+}
+
+#tablaFacturas td
+{
+	border: 2px solid grey;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#carrito
+{
+	float: left; 
+	width: 30px; 
+	height: 30px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+/*************FORMULARIO ENVIO**************/
+
+#formularioEnvio
+{
+	margin: 0 auto;
+	border-radius: 5%;
+	border-bottom: 6px solid grey;
+	border-right: 6px solid grey;
+	border-top: 2px solid grey;
+	border-left: 2px solid grey;
+	width: 640px;
+	height: 320px;
+}
+
+#formularioEnvio form	
+{
+	margin-top:40px;
+	width: 600px;
+	height:300px;
+}
+
+#formularioEnvio input
+{
+	display: inline-block;
+}
+
+#formularioEnvio label
+{
+	display: inline-block;
+	margin-left: 50px;
+	font-family: Purisa;
+}
+
+#formularioEnvio textarea
+{
+	border: 1px solid grey;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
